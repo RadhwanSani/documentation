@@ -73,6 +73,7 @@ There are many more options for dnsmasq; see the [dnsmasq documentation](http://
 
 Reload `dnsmasq` to use the updated configuration:
 ```
+sudo service dnsmasq restart
 sudo systemctl reload dnsmasq
 ```
 
